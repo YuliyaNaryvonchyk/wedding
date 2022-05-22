@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "YesevaOne-Regular";
+    src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/Muller.ttf");
+}
+
+@font-face {
+    font-family: "Muller-Bold";
+    src: url("../fonts/Muller-Bold.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background: #FDFDFD;
+    margin-bottom: 80px;
+    padding: 13px 0;
+    box-shadow: 0px 4px 20px 0px #BD8D9933;
+}
+
+#header_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Muller", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.menu_header {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    color: #BD8D99;
+    margin-right: 53px;
+}
+
+.menu_header:last-child {
+    margin-right: 0;
+}
+
+#info_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text {
+    color: #4B0012;
+    font-family: "YesevaOne-Regular", sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+    margin-top: 120px;
+}
+
+#title {
+    margin: 0 auto 50px auto;
+    font-size: 38px;
+    line-height: 44px;
+    width: 615px;
+    text-align: center;
+}
+
+.my-slick {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+.slick-prev,
+.slick-next {
+    width: 23px;
+    height: 42px;
+    z-index:5;
+}
+
+.slick-next {
+    right: -42px;
+}
+
+.slick-prev {
+    left: -42px;
+}
+
+.slick-prev,.slick-prev:hover,.slick-prev:focus {
+    background: url("../images/Vector1.png");
+}
+
+.slick-next,.slick-next:hover,.slick-next:focus {
+    background: url("../images/Vector.png");
+}
+
+#tabs {
+    border: 0;
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav{
+    padding: 0;
+}
+
+.ui-widget-header {
+    background: transparent;
+    border: 0;
+}
+
+#list {
+    margin-top: 43px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title_description {
+    font-family: "Muller-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B0012;
+    margin-bottom: 15px;
+    margin-top: 24px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    margin: 0 10px 0 0;
+}
+
+.ui-tabs .ui-tabs-nav li:last-child {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #B08989;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #4B0012;
+    background: #FCF2F2;
+}
+
+.ui-state-active a, .ui-state-active a:visited:active .ui-tabs .ui-tabs-panel{
+    background: #FCF2F2;
+}
+
+.ui-tabs .ui-tabs-panel {
+    background: #FCF2F2;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 20px 0;
+    width: 175px;
+    text-align: center;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #FCF2F2;
+    border-radius: 10px 10px 0 0;
+    background: transparent;
+}
+
+#tabs_description {
+    font-family: "Muller", sans-serif;
+    font-size: 16px;
+}
+
+.list_description {
+    font-family: "Muller", sans-serif;
+    font-size: 16px;
+    color: #1E0108;
+    padding-left: 15px;
+}
+
+.list_description li {
+    margin-top: 12px;
+}
+
+#answers_container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#answers_container .text {
+    text-align: center;
+}
+
+#accordion {
+    margin-top: 45px;
+    margin-bottom: 80px;
+    padding: 0 136px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.ui-accordion .ui-accordion-header {
+    margin-top: 15px;
+    background: #FCF2F2;
+    border-radius: 10px;
+    padding: 30px 0 30px 25px;
+}
+
+.ui-widget-content {
+    border: 0;
+}
+
+#accordion .ui-accordion-header {
+    position: relative;
+}
+#accordion .ui-accordion-header-icon {
+    content: '';
+    position: absolute;
+    top: 40px;
+    right: 36px;
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+    background: url(../images/Vector_bottom.png) 50% 50% no-repeat;
+}
+
+#accordion .ui-accordion-header-active .ui-accordion-header-icon {
+    background-image: url(../images/Vector_top.png);
+}
+
+.accordion-item {
+    border: 0;
+    max-width: 928px;
+}
+
+#footer {
+    background: #FCF4F4;
+    padding: 13px 0;
+}
+
+#footer_container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+#rights {
+    margin: 0 auto;
+    font-family: "Muller", sans-serif;
+    color: rgba(189, 141, 153, 0.5);
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+
+
